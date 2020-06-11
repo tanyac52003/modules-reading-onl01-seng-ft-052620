@@ -2,6 +2,9 @@ require_relative './class_methods_module.rb'
 require_relative './dance_module.rb'
 
 class Dancer 
+  class Dancer 
+    extend MetaDancing
+  end 
   class Dancer
   include Dance
  
